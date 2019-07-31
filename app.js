@@ -44,7 +44,7 @@ var server=http.createServer(function(req,res){
 	res.end('Hello World');
 });
 
-server.listen(3001,'localhost');
+server.listen(80,'localhost');
 console.log('Now listening top port 3000');
 
 /*
